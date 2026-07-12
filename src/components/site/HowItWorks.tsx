@@ -136,10 +136,10 @@ export function HowItWorks() {
                   {/* Center Node (Icon Bubble) */}
                   <div className="absolute left-6 md:left-1/2 -translate-x-1/2 flex items-center justify-center z-20">
                     <div className={cn(
-                      "flex h-11 w-11 items-center justify-center rounded-xl bg-white border border-hairline shadow-sm transition-transform duration-300 group-hover:scale-110",
+                      "flex h-14 w-14 items-center justify-center rounded-xl bg-white border border-hairline shadow-sm transition-transform duration-300 group-hover:scale-110",
                       isEven ? "text-truering-orange" : "text-truering-blue"
                     )}>
-                      {s.icon && <img src={s.icon} alt={s.title} className="h-5 w-5 dark:invert" />}
+                      {s.icon && <img src={s.icon} alt={s.title} className="h-8.5 w-8.5 dark:invert" />}
                     </div>
                   </div>
 

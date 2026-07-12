@@ -41,10 +41,10 @@ export function Features() {
                 {/* Icon Wrapper */}
                 <div className="mb-5 relative z-10 px-10">
                   <div className={cn(
-                    "flex h-11 w-11 items-center justify-center rounded-xl transition-colors duration-300",
+                    "flex h-14 w-14 items-center justify-center rounded-xl transition-colors duration-300",
                     isBlue ? "bg-truering-blue-100 text-truering-blue-600" : "bg-truering-orange-100 text-truering-orange-600"
                   )}>
-                    <img src={f.icon} alt={f.title} className="h-5 w-5 dark:invert" />
+                    <img src={f.icon} alt={f.title} className="h-8 w-8 dark:invert" />
                   </div>
                 </div>
 

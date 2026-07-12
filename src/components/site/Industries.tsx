@@ -19,10 +19,10 @@ export function Industries() {
                 className="group rounded-xl border border-hairline bg-white p-5 transition-all hover:border-truering-orange/40 hover:-translate-y-0.5"
               >
                 <div
-                  className={`inline-flex h-9 w-9 items-center justify-center rounded-full ${isBlue ? "bg-truering-blue-100 text-truering-blue-600" : "bg-truering-orange-100 text-truering-orange-600"
+                  className={`inline-flex h-12 w-12 items-center justify-center rounded-full ${isBlue ? "bg-truering-blue-100 text-truering-blue-600" : "bg-truering-orange-100 text-truering-orange-600"
                     }`}
                 >
-                  <img src={it.icon} alt={it.title} className="h-4.5 w-4.5 dark:invert" />
+                  <img src={it.icon} alt={it.title} className="h-7 w-7 dark:invert" />
                 </div>
                 <h3 className="mt-3 text-sm font-semibold text-ink">{it.title}</h3>
                 <p className="mt-1.5 text-xs text-graphite leading-relaxed">{it.body}</p>

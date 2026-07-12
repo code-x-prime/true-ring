@@ -146,10 +146,10 @@ export function Integrations() {
                     <div>
                       {/* Icon container */}
                       <div className={cn(
-                        "flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-300",
+                        "flex h-13 w-13 items-center justify-center rounded-xl transition-all duration-300",
                         isBlue ? "bg-truering-blue-100 text-truering-blue-600" : "bg-truering-orange-100 text-truering-orange-600"
                       )}>
-                        <img src={it.icon} alt={it.name} className="h-5 w-5 dark:invert" />
+                        <img src={it.icon} alt={it.name} className="h-8 w-8 dark:invert" />
                       </div>
 
                       {/* Title & Description */}
