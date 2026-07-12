@@ -149,7 +149,7 @@ export function Integrations() {
                         "flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-300",
                         isBlue ? "bg-truering-blue-100 text-truering-blue-600" : "bg-truering-orange-100 text-truering-orange-600"
                       )}>
-                        {it.icon && <it.icon className="h-4.5 w-4.5" />}
+                        <img src={it.icon} alt={it.name} className="h-5 w-5 dark:invert" />
                       </div>
 
                       {/* Title & Description */}

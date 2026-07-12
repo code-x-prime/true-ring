@@ -44,7 +44,7 @@ export function Features() {
                     "flex h-11 w-11 items-center justify-center rounded-xl transition-colors duration-300",
                     isBlue ? "bg-truering-blue-100 text-truering-blue-600" : "bg-truering-orange-100 text-truering-orange-600"
                   )}>
-                    <f.icon className="h-5 w-5" />
+                    <img src={f.icon} alt={f.title} className="h-5 w-5 dark:invert" />
                   </div>
                 </div>
 

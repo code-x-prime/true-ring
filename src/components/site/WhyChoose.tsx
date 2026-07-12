@@ -47,7 +47,7 @@ export function WhyChoose() {
             <div className="flex items-start justify-between">
               <span className="text-3xl font-bold tracking-tight">95%</span>
               <div className="p-2 bg-white/10 rounded-lg">
-                {Icon0 && <Icon0 className="h-5 w-5 text-white" />}
+                {Icon0 && <img src={Icon0} alt="" className="h-5 w-5 brightness-0 invert" />}
               </div>
             </div>
             <div className="border-t border-white/20 pt-4 mt-4">
@@ -65,7 +65,7 @@ export function WhyChoose() {
             <div className="flex items-start justify-between">
               <span className="text-3xl font-bold tracking-tight">120M+</span>
               <div className="p-2 bg-white/10 rounded-lg">
-                {Icon1 && <Icon1 className="h-5 w-5 text-white" />}
+                {Icon1 && <img src={Icon1} alt="" className="h-5 w-5 brightness-0 invert" />}
               </div>
             </div>
             <div className="border-t border-white/20 pt-4 mt-4">
@@ -98,7 +98,7 @@ export function WhyChoose() {
             <div className="flex items-start justify-between">
               <span className="text-3xl font-bold tracking-tight text-[#3f5fe6] dark:text-truering-blue">360°</span>
               <div className="p-2 bg-truering-blue-100 rounded-lg">
-                {Icon2 && <Icon2 className="h-5 w-5 text-truering-blue" />}
+                {Icon2 && <img src={Icon2} alt="" className="h-5 w-5 dark:invert" />}
               </div>
             </div>
             <div className="border-t border-hairline pt-4 mt-4">
@@ -118,7 +118,7 @@ export function WhyChoose() {
                 {whyRows[3]?.title}
               </h4>
               <div className="p-2 bg-truering-orange-100 rounded-lg shrink-0">
-                {Icon3 && <Icon3 className="h-5 w-5 text-truering-orange" />}
+                {Icon3 && <img src={Icon3} alt="" className="h-5 w-5 dark:invert" />}
               </div>
             </div>
             <div className="border-t border-hairline pt-3 mt-3">
@@ -133,7 +133,7 @@ export function WhyChoose() {
             <div className="flex items-start justify-between">
               <span className="text-3xl font-bold tracking-tight text-zinc-900">50%</span>
               <div className="p-2 bg-zinc-950/10 rounded-lg">
-                {Icon4 && <Icon4 className="h-5 w-5 text-zinc-950" />}
+                {Icon4 && <img src={Icon4} alt="" className="h-5 w-5 dark:invert-0 brightness-0" />}
               </div>
             </div>
             <div className="border-t border-zinc-900/20 pt-4 mt-4">
@@ -151,7 +151,7 @@ export function WhyChoose() {
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-2">
                 <div className="p-2 bg-truering-blue-100 rounded-lg">
-                  {Icon5 && <Icon5 className="h-5 w-5 text-truering-blue" />}
+                  {Icon5 && <img src={Icon5} alt="" className="h-5 w-5 dark:invert" />}
                 </div>
                 <h4 className="text-sm font-bold uppercase tracking-wider text-ink">
                   {whyRows[5]?.title}

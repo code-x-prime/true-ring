@@ -1,6 +1,4 @@
-import { IconPhoneIncoming, IconPhoneOutgoing } from "@tabler/icons-react";
 import { SectionHeading } from "./SectionHeading";
-
 
 export function InboundOutbound() {
   return (
@@ -28,7 +26,7 @@ export function InboundOutbound() {
               <div className="group bg-white dark:bg-zinc-950/20 border border-hairline/80 border-l-4 border-l-truering-blue rounded p-6 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.04)] hover:shadow-md hover:border-truering-blue/20 transition-all duration-300">
                 <div className="flex items-center gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-truering-blue-100 text-truering-blue-600 transition-colors group-hover:bg-truering-blue group-hover:text-white">
-                    <IconPhoneIncoming className="h-5 w-5" />
+                    <img src="/icons/inbound-calling.svg" alt="Inbound Calling" className="h-5 w-5 dark:invert group-hover:brightness-0 group-hover:invert" />
                   </div>
                   <h3 className="text-lg sm:text-xl font-bold text-ink transition-colors group-hover:text-truering-blue">
                     Inbound Calling
@@ -43,7 +41,7 @@ export function InboundOutbound() {
               <div className="group bg-white dark:bg-zinc-950/20 border border-hairline/80 border-l-4 border-l-truering-orange rounded p-6 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.04)] hover:shadow-md hover:border-truering-orange/20 transition-all duration-300">
                 <div className="flex items-center gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-truering-orange-100 text-truering-orange-600 transition-colors group-hover:bg-truering-orange group-hover:text-white">
-                    <IconPhoneOutgoing className="h-5 w-5" />
+                    <img src="/icons/outbound-calling.svg" alt="Outbound Calling" className="h-5 w-5 dark:invert group-hover:brightness-0 group-hover:invert" />
                   </div>
                   <h3 className="text-lg sm:text-xl font-bold text-ink transition-colors group-hover:text-truering-orange">
                     Outbound Calling

@@ -22,7 +22,7 @@ export function Industries() {
                   className={`inline-flex h-9 w-9 items-center justify-center rounded-full ${isBlue ? "bg-truering-blue-100 text-truering-blue-600" : "bg-truering-orange-100 text-truering-orange-600"
                     }`}
                 >
-                  <it.icon className="h-4 w-4" />
+                  <img src={it.icon} alt={it.title} className="h-4.5 w-4.5 dark:invert" />
                 </div>
                 <h3 className="mt-3 text-sm font-semibold text-ink">{it.title}</h3>
                 <p className="mt-1.5 text-xs text-graphite leading-relaxed">{it.body}</p>

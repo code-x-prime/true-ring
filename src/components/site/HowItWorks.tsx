@@ -139,7 +139,7 @@ export function HowItWorks() {
                       "flex h-11 w-11 items-center justify-center rounded-xl bg-white border border-hairline shadow-sm transition-transform duration-300 group-hover:scale-110",
                       isEven ? "text-truering-orange" : "text-truering-blue"
                     )}>
-                      {StepIcon && <StepIcon className="h-5 w-5" />}
+                      {s.icon && <img src={s.icon} alt={s.title} className="h-5 w-5 dark:invert" />}
                     </div>
                   </div>
 
