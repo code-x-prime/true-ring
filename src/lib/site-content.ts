@@ -97,24 +97,19 @@ export const industries: Industry[] = [
     icon: "/icons/insurance.svg",
   },
   {
-    title: "BFSI & Lending",
+    title: "BFSI",
     body: "Process loan requests, make verification calls, handle collections, send payment alerts, and onboard customers while keeping solid records of all calls.",
     icon: "/icons/bsfl-lending.svg",
   },
   {
-    title: "Recruitment",
-    body: "Schedule candidate assessments, schedule interview dates, monitor placements and update clients all from one place.",
-    icon: "/icons/recruitment.svg",
-  },
-  {
     title: "Ecommerce",
-    body: "Support shoppers from start to finish: order updates, shipping details, and return support and follow-up after purchase.",
+    body: "Support shoppers from start to finish: order updates, shipping details, return support, and follow-up after purchase.",
     icon: "/icons/ecommerce.svg",
   },
   {
-    title: "Travel & Hospitality",
-    body: "Handle bookings, confirm reservations, give travel help, update plans, and support customers while creating great service moments.",
-    icon: "/icons/travel-hospitality.svg",
+    title: "Loan & Lending",
+    body: "Manage loan inquiries, document collection, application tracking, approvals, and borrower communication through one smart lending CRM.",
+    icon: "/icons/bsfl-lending.svg",
   },
 ];
 

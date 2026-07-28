@@ -1,6 +1,18 @@
+import Link from "next/link";
 import { features } from "@/lib/site-content";
 import { SectionHeading } from "./SectionHeading";
 import { cn } from "@/lib/utils";
+
+const featureLinks: Record<string, string> = {
+  "Smart Lead Management": "/services/lead-management-software",
+  "Auto & Predictive Dialers": "/services/power-dialer-software",
+  "Click-to-Call": "/services/click-to-call-software",
+  "Intelligent IVR Management": "/services/ivr-management-software",
+  "Call Recording & Monitoring": "/services/call-recording-software",
+  "Real-Time Analytics": "/services/telecalling-crm-software",
+  "Workflow Automation": "/services/crm-for-telecalling-teams",
+  "Secure Cloud-Based Platform": "/services/cloud-telephony-crm",
+};
 
 export function Features() {
   return (
@@ -20,9 +32,12 @@ export function Features() {
               ? (index < 4 ? "bg-gradient-to-t from-truering-blue-50/60 to-transparent" : "bg-gradient-to-b from-truering-blue-50/60 to-transparent")
               : (index < 4 ? "bg-gradient-to-t from-truering-orange-50/60 to-transparent" : "bg-gradient-to-b from-truering-orange-50/60 to-transparent");
 
+            const href = featureLinks[f.title] ?? "/";
+
             return (
-              <div
+              <Link
                 key={f.title}
+                href={href}
                 className={cn(
                   "flex flex-col py-10 relative group/feature border-hairline/80 dark:border-neutral-800 transition-all duration-300",
                   "lg:border-r",
@@ -64,7 +79,7 @@ export function Features() {
                 <p className="text-sm text-graphite max-w-xs relative z-10 px-10 leading-relaxed">
                   {f.body}
                 </p>
-              </div>
+              </Link>
             );
           })}
         </div>

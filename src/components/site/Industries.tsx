@@ -1,5 +1,16 @@
+import Link from "next/link";
 import { industries } from "@/lib/site-content";
 import { SectionHeading } from "./SectionHeading";
+
+const industryLinks: Record<string, string> = {
+  "Real Estate": "/industries/real-estate",
+  Education: "/industries/education",
+  Healthcare: "/industries/healthcare",
+  Insurance: "/industries/insurance",
+  BFSI: "/industries/bfsi-telecalling-crm",
+  Ecommerce: "/industries/ecommerce-call-center-crm",
+  "Loan & Lending": "/industries/loan-and-lending-crm",
+};
 
 export function Industries() {
   return (
@@ -13,9 +24,12 @@ export function Industries() {
         <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
           {industries.map((it, i) => {
             const isBlue = i % 2 === 0;
+            const href = industryLinks[it.title] ?? "/";
+
             return (
-              <div
+              <Link
                 key={it.title}
+                href={href}
                 className="group rounded-xl border border-hairline bg-white p-5 transition-all hover:border-truering-orange/40 hover:-translate-y-0.5"
               >
                 <div
@@ -26,7 +40,7 @@ export function Industries() {
                 </div>
                 <h3 className="mt-3 text-sm font-semibold text-ink">{it.title}</h3>
                 <p className="mt-1.5 text-xs text-graphite leading-relaxed">{it.body}</p>
-              </div>
+              </Link>
             );
           })}
         </div>
