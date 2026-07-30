@@ -922,6 +922,82 @@ export const industryPages: IndustryPageData[] = [
             { question: "Can managers monitor loan team performance?", answer: "Yes. Managers can track loan inquiries, application progress, advisor productivity, approval rates, follow-up completion, and overall business performance through real-time dashboards." },
         ],
     },
+    {
+        slug: "recruitment-and-staffing",
+        title: "Recruitment Telecalling CRM",
+        eyebrow: "Hiring & Placement",
+        description:
+            "Automate candidate queries and recruiter follow-ups, and streamline the entire hiring process with Truering Recruitment Telecalling CRM. Make recruitment activities simpler, more effective, and efficient, and help your recruitment teams reach out to candidates more quickly, effectively, and successfully through a single platform.",
+        heroTitle: "Recruitment Telecalling CRM That Converts More Candidates into Successful Placements",
+        overview:
+            "Recruitment Telecalling CRM is a CRM solution that will suit recruitment agencies, staffing organizations, executive search organizations, HR advisory firms, and placement organizations. It helps teams handle candidate queries, recruiter calls, interviews, follow-ups, client needs, and hiring pipelines through a single centralized CRM, enhancing efficiency and applicant placement. The timely communication, the constant contact with the candidates and the effective recruiting procedures make recruitment. Truering Recruitment Telecalling CRM allows recruitment agencies, staffing firms, and HR consultancies to record each candidate request, automate recruiter processes, and manage the entire recruitment process, including sourcing candidates and finding them a successful home. Since 2015, businesses have trusted Truering to integrate intelligent CRM automation with cloud telephony to enable recruiters to respond more quickly, arrange interviews more effectively, and build rapport with candidates without requiring additional administrative work. Truering is an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited company that provides enterprise-level security, operational stability, and scalability that recruiters can depend on to support large-scale recruitment business processes.",
+        stats: ["Established Since 2015", "ISO 27001 Certified", "ISO 9001 Certified", "SOC 2 Audited"],
+        useCases: [
+            { title: "Candidate Lead Management", body: "Receive applicant requests at job boards, career communities, social networks, referrals, job fairs, and direct in-person applications with entire candidate profiles and communication history." },
+            { title: "One-Click Calling", body: "Empower recruiters to make direct calls to candidates on the CRM and capture conversations, follow-ups, and communication activities." },
+            { title: "Automated Candidate Follow-Ups", body: "Send interview reminders, callback reminders, document submissions, offer reminders, and onboarding messages automatically, keeping all candidates involved." },
+            { title: "Interview & Hiring Pipeline Management", body: "Follow through on applications and screening, interviews, rollout, onboarding, and final placement with customizable recruitment pipelines." },
+            { title: "Client Requirement Management", body: "Administer vacancies, recruitment needs, recruiter assignments, and candidate submissions while retaining full visibility of all hiring projects." },
+            { title: "Reports & Recruitment Analytics", body: "Measure recruiter effectiveness, applicant response, interview conversion, placement, recruitments, hiring schedules and recruitment programs in real-time via dashboards." },
+        ],
+        benefits: [
+            "100,000+ Candidate Record Capacity — organize and maintain huge candidate databases across industries, job categories, customers, and recruiting drives",
+            "100+ Intelligent Candidate Assignment Rules — sort candidates automatically by recruiter experience, job position, customer, location, industry or hiring priority",
+            "40+ Recruitment Workflow Automations — automate interviews, follow-ups, updates on candidate status, onboarding, recruiter communications and repetitive administrative work",
+            "30+ Business Integrations — combine Truering with cloud telephony, WhatsApp, job portals, HRMS, email platforms, APIs and business apps",
+            "25+ Recruitment Performance Dashboards — track recruitment performance, hiring pipelines, interview performance, placement rates, and candidate engagement",
+            "Enterprise-Ready Recruitment Platform — grow with secure cloud infrastructure compliant with ISO 27001, ISO 9001, and SOC 2 standards",
+        ],
+        relatedServices: ["telecalling-crm-software", "lead-management-software", "power-dialer-software", "click-to-call-software"],
+        seoTitle: "Recruitment Telecalling CRM | Truering",
+        seoDescription:
+            "Truering Recruitment Telecalling CRM helps recruitment agencies, staffing firms, and HR consultancies automate candidate queries, follow-ups, and hiring pipelines through one smart platform.",
+        keywords: ["recruitment telecalling CRM", "recruitment CRM software", "staffing CRM", "hiring CRM", "placement agency CRM"],
+        faqItems: [
+            { question: "Who is allowed to use Truering Recruitment Telecalling CRM?", answer: "Truering is designed for recruitment agencies, staffing firms, HR consultancies, executive search firms, placement firms, and corporate recruitment teams." },
+            { question: "Am I able to handle several customers and vacant positions?", answer: "Yes. Truering enables you to operate out of a single central CRM to manage a wide range of clients, job needs, recruiters, candidates, and hiring pipelines." },
+            { question: "Does Truering support cloud telephony?", answer: "Absolutely. Truering is coupled with cloud telephony to create click-to-call, automatic call history, call recording, and full recruiter-candidate tracking." },
+            { question: "Are recruitment managers able to monitor recruiter performance?", answer: "Yes. Real-time dashboards enable managers to track recruiter productivity, candidate follow-ups, conversion of interviews to placements, and overall hiring performance." },
+        ],
+    },
+    {
+        slug: "travel-and-hospitality",
+        title: "Travel & Hospitality CRM",
+        eyebrow: "Travel & Bookings",
+        description:
+            "Manage customer inquiries, automate travel follow-ups, and streamline every guest interaction with Truering Travel & Hospitality CRM. One smart platform enables your sales, reservations, and customer support teams to react faster, boost booking conversion rates, and build lasting customer relationships.",
+        heroTitle: "Travel & Hospitality CRM That Delivers Exceptional Guest Experiences and Increases Bookings",
+        overview:
+            "Travel & Hospitality CRM is a dedicated type of customer relationship management software that is targeted at travel agencies, tour operators, hotels, resorts, hospitality groups, destination management companies (DMCs), and travel service providers. It helps companies handle travel inquiries, bookings, telecalling, guest communication, follow-ups, and customer relationships using a single centralized platform, while also offering personalized travel experiences. All travel requests are a chance to make a memorable customer experience. The Truering Travel and Hospitality CRM system assists travel agencies, hotels, resorts, and hospitality companies in maintaining all guest contact, including the initial inquiry and itinerary presentation, as well as receiving a confirmation of booking, post-trip follow-ups, and redeeming bookings, all in a single platform. Since 2015, businesses have trusted Truering to integrate intelligent CRM automation with cloud telephony that help reservation teams respond to requests more quickly and efficiently while enhancing guest relationships. As an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company, Truering offers scalable technology, operational reliability, and a high level of security for growing travel and hospitality industries.",
+        stats: ["Established Since 2015", "ISO 27001 Certified", "ISO 9001 Certified", "SOC 2 Audited"],
+        useCases: [
+            { title: "Travel Inquiry Management", body: "Websites, travel portals, social media, referrals, campaigns, and walk-ins capture inquiries and provide a complete history of traveler profiles and communication." },
+            { title: "One-Click Calling", body: "Give travel consultants and reservation executives the opportunity to reach customers in real-time and record all the conversations and inquiries." },
+            { title: "Automated Follow-Up Management", body: "Send email schedules to remind quotations, itinerary approvals, booking confirmations and collection of payments, travel documents, and post-trip feedback without manually typing." },
+            { title: "Booking & Reservation Pipeline", body: "Follow all customers through inquiry, package selection, booking confirmation, payment, travel completion, and repeat booking with tailor-made workflows and procedures." },
+            { title: "360° Guest Communication Timeline", body: "Get all calls, emails, WhatsApp messages, quotes, bookings and customer interactions under one centralized profile to provide individualized guest experiences." },
+            { title: "Reports & Business Analytics", body: "Keep track of booking performance, inquiry sources, consultant productivity, conversion rates, customer satisfaction, and revenue patterns with real-time dashboards." },
+        ],
+        benefits: [
+            "100,000+ Travel Enquiry Capacity — process thousands of holiday packages, hotel bookings, tour inquiries, and customer interactions without losing sight of any sales prospect",
+            "100+ Smart Lead Distribution Rules — auto-allocate inquiries by destination, travel package, language, consultant expertise, location, or booking priority",
+            "40+ Workflow Automations — automate follow-ups on itineraries, payment reminders, booking confirmations, travel document notifications, and customer callbacks",
+            "30+ Business Integrations — integrate Truering with cloud telephony, WhatsApp, booking systems, ERP, payment gateways, APIs, and email platforms",
+            "25+ Business Performance Dashboards — track consultant productivity, booking conversions, inquiry sources, customer interactions, and revenue KPIs",
+            "Enterprise-Ready Hospitality CRM — grow with secure cloud infrastructure with ISO 27001, ISO 9001, and SOC 2 Audited standards",
+        ],
+        relatedServices: ["telecalling-crm-software", "lead-management-software", "cloud-telephony-crm", "click-to-call-software"],
+        seoTitle: "Travel & Hospitality CRM | Truering",
+        seoDescription:
+            "Truering Travel & Hospitality CRM helps travel agencies, hotels, and resorts manage bookings, guest communication, and reservation pipelines through one smart platform.",
+        keywords: ["travel and hospitality CRM", "travel agency CRM", "hotel CRM software", "hospitality CRM", "tour operator CRM"],
+        faqItems: [
+            { question: "Who can use Truering Travel & Hospitality CRM?", answer: "Truering is designed for travel agencies, tour operators, hotels, resorts, DMCs, hospitality groups, and travel service providers to manage inquiries, bookings, and guest communication." },
+            { question: "Can I manage multiple travel packages and destinations?", answer: "Yes. Truering allows you to manage multiple travel packages, destinations, booking workflows, and customer pipelines from a single centralized CRM." },
+            { question: "Does Truering integrate with booking systems?", answer: "Absolutely. Truering integrates with booking engines, payment gateways, ERP systems, cloud telephony, WhatsApp, and other travel platforms." },
+            { question: "Can managers track consultant and booking performance?", answer: "Yes. Real-time dashboards enable managers to track consultant productivity, booking conversions, inquiry sources, customer satisfaction, and revenue patterns." },
+        ],
+    },
 ];
 
 export const integrationPages: IntegrationPageData[] = [
@@ -1084,5 +1160,81 @@ export const integrationPages: IntegrationPageData[] = [
         seoDescription:
             "Truering Salesforce Integration connects cloud telephony with Salesforce CRM for automatic call logging, click-to-call, screen pop, and real-time sync.",
         keywords: ["Salesforce integration", "Salesforce telephony integration", "Salesforce call logging", "Truering Salesforce"],
+    },
+    {
+        slug: "leadsquared-integration",
+        title: "LeadSquared Integration",
+        eyebrow: "Lead Automation",
+        description:
+            "Connect Truering to LeadSquared to automate call-logging, allow a click-to-call, or coordinate lead actions, and consolidate all interactions with customers to a single intelligent platform. Respond to leads faster, more productively, and turn more enquiries into customers by integrating cloud telephony.",
+        heroTitle: "LeadSquared Integration for Faster Lead Response and Higher Conversions",
+        overview:
+            "One of the biggest factors in lead conversion is speed. To integrate customer communication and manage all lead engagement with one connected system, Truering LeadSquared Integration brings together LeadSquared CRM with enterprise-grade cloud telephony to enable businesses to respond to enquiries more quickly, automate customer communication, and manage all lead interactions on a single platform. Since 2015, trusted by businesses, Truering helps organizations to drop manual processes, optimize agent productivity, and enhance customer engagement by leveraging intelligent automation. Supported by standards for secure, scaled, and reliable Integration powered by ISO 27001-certified, ISO 27001-certified, and SOC 2-audited services, Truering provides high-performance sales teams across all industries with reliable, scaled integration.",
+        stats: ["Established Since 2015", "ISO 27001 Certified", "ISO 9001 Certified", "SOC 2 Audited"],
+        features: [
+            { title: "Automatic Call Logging", body: "Automatically add all received, outgoing, missed, and transferred calls within LeadSquared, as well as call time, timestamps, recordings, notes, and agent details, without needing to add notes manually to your CRM." },
+            { title: "Click-to-Call from LeadSquared", body: "Enable salespeople to make calls through LeadSquared with a simple mouse click and enable them to reach more prospects in less time on their phones by having to make manual dial calls." },
+            { title: "Lead Screen Pop", body: "Show full lead details in real-time as customers call. Inquiry history, follow-ups, prior conversations, and lead status is accessible to sales agents before they answer." },
+            { title: "Call Recordings & Activity Synchronization", body: "To ensure full lead recording throughout the sales process, automatically keep a call recording, notes, dispositions, and history of customer communications with LeadSquared." },
+            { title: "Real-Time Lead Synchronization", body: "Maintain lead records, contact records, activities, and communication history between Truering and LeadSquared to ensure the right customer data." },
+            { title: "Advanced Reports & Analytics", body: "Track call positivity, lead response time, agent efficiency, conversion rate, follow-ups, and sales performance with in-depth dashboards and real-time business intelligence." },
+        ],
+        benefits: [
+            "100% Automated Lead Activity — connect all customer interactions within LeadSquared automatically without having to manually update them",
+            "99.9% Platform Reliability — enterprise-level cloud infrastructure that supports business communication at scale",
+            "30+ Business Integrations — bring together WhatsApp, ERP systems, cloud telephony, APIs, helpdesk platforms, and business applications",
+            "Enterprise-Grade Security & Compliance — secure infrastructure with ISO 27001, ISO 9001, and SOC 2 Audited standards",
+            "Increase Sales Productivity — enable sales teams with click-to-call, call recording, lead screen pop, and call history",
+            "Built for High-Performance Sales Teams — scale smoothly to help businesses grow without affecting speed, reliability, or performance",
+        ],
+        relatedServices: ["telecalling-crm-software", "lead-management-software", "call-recording-software", "power-dialer-software"],
+        seoTitle: "LeadSquared Integration | Truering",
+        seoDescription:
+            "Truering LeadSquared Integration connects cloud telephony with LeadSquared CRM for automatic call logging, click-to-call, lead screen pop, and real-time sync.",
+        keywords: ["LeadSquared integration", "LeadSquared CRM telephony", "LeadSquared call logging", "Truering LeadSquared"],
+        faqItems: [
+            { question: "What is Truering LeadSquared Integration?", answer: "It connects LeadSquared CRM with Truering's cloud telephony to enable automatic call logging, click-to-call, lead screen pop, and real-time lead synchronization." },
+            { question: "Can sales teams make calls directly from LeadSquared?", answer: "Yes. Sales representatives can make calls with a single click from within LeadSquared, eliminating manual dialing and increasing productivity." },
+            { question: "Does the integration sync call recordings?", answer: "Absolutely. Call recordings, notes, dispositions, and communication history are automatically synchronized with LeadSquared for complete lead tracking." },
+            { question: "Is Truering LeadSquared Integration secure?", answer: "Yes. Truering is backed by ISO 27001, ISO 9001, and SOC 2 Audited standards, ensuring enterprise-grade security for all data." },
+        ],
+    },
+    {
+        slug: "google-sheets-integration",
+        title: "Google Sheets Integration",
+        eyebrow: "Data Automation",
+        description:
+            "Integrate Truering with Google Sheets on a regular basis to automatically copy call data, customer records, lead information, and business activities to spreadsheets. Eliminate manual data entry, improve reporting efficiency, and enable your teams to make smarter decisions with real-time data.",
+        heroTitle: "Google Sheets Integration with Truering for Automated Data Management and Real-Time Business Insights",
+        overview:
+            "The success of business decisions is directly related to the quality of the data used. The Truering Google Sheets Integration can help organizations automatically track customer touchpoints, call operations, lead data, and operations data in Google Sheets without manual intervention. Regardless of whether you are tracking sales performance, customer support or creating business reports, all the updates occur automatically. Since 2015, Truering, trusted by businesses, has made data management easier using intelligent automation and enhanced team performance and efficiency. Supported by ISO 27001-certified and ISO 9001 certifications and SOC 2 auditing, Truering offers a secure, scalable, enterprise-ready integration that businesses demanding precise, current reporting can use.",
+        stats: ["Established Since 2015", "ISO 27001 Certified", "ISO 9001 Certified", "SOC 2 Audited"],
+        features: [
+            { title: "Automatic Data Synchronization", body: "Automatically export call logs, lead information, customer files, agent actions, and history of communication to Google Sheets without manual exports." },
+            { title: "Real-Time Data Updates", body: "Always maintain spreadsheets on the fly as calls, leads, customer interactions, and business activities are logged into Truering." },
+            { title: "Custom Data Mapping", body: "Set up which fields, records and business data to be moved into particular Google Sheets to meet your reporting needs." },
+            { title: "Automated Report Generation", body: "Create live sales reporting, call performance dashboards, lead tracking sheets and operational reporting with automatically synchronized data." },
+            { title: "Centralized Business Data", body: "Have a single spreadsheet containing customer data, communications, sales, and operational statistics that can be safely shared departmentally." },
+            { title: "Workflow Automation", body: "Automate processes using the new updated spreadsheet data to simplify reporting, business operations and work processes." },
+        ],
+        benefits: [
+            "100% Automated Data Synchronization — get rid of manual updates to spreadsheets by automatically transferring business data via Truering to Google Sheets",
+            "Real-Time Business Visibility — get current business data and live reports without manually exporting data or scheduling it",
+            "30+ Business Integrations — integrate Google Sheets with CRM systems, cloud phone apps, WhatsApp, ERP, APIs, and enterprise applications",
+            "Enterprise-Grade Security & Compliance — secure business data with ISO 27001, ISO 9001, and SOC 2 Audited standards",
+            "Higher Operational Efficiency — automate repeated and redundant administrative functions to ensure time is used analyzing performance",
+            "Built to Scale with Growing Businesses — provide stable synchronization whether you have hundreds or millions of records",
+        ],
+        relatedServices: ["telecalling-crm-software", "cloud-telephony-crm", "lead-management-software", "call-tracking-crm"],
+        seoTitle: "Google Sheets Integration | Truering",
+        seoDescription:
+            "Truering Google Sheets Integration automates call data, lead information, and business activities to spreadsheets for real-time reporting and smarter decisions.",
+        keywords: ["Google Sheets integration", "Truering Google Sheets", "automated data sync", "call data spreadsheet", "business reporting integration"],
+        faqItems: [
+            { question: "What is Truering Google Sheets Integration?", answer: "It automatically exports call logs, lead information, customer records, and business activities from Truering to Google Sheets for real-time reporting and data management." },
+            { question: "Does the data sync in real-time?", answer: "Yes. Truering automatically updates Google Sheets as calls, leads, customer interactions, and business activities are logged." },
+            { question: "Can I customize which data gets synced?", answer: "Absolutely. You can configure which fields, records, and business data are synchronized to specific Google Sheets based on your reporting needs." },
+            { question: "Is the integration secure?", answer: "Yes. Truering is backed by ISO 27001, ISO 9001, and SOC 2 Audited standards, ensuring enterprise-grade security for all data transfers." },
+        ],
     },
 ];

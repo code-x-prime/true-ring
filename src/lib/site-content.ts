@@ -111,6 +111,16 @@ export const industries: Industry[] = [
     body: "Manage loan inquiries, document collection, application tracking, approvals, and borrower communication through one smart lending CRM.",
     icon: "/icons/bsfl-lending.svg",
   },
+  {
+    title: "Recruitment",
+    body: "Automate candidate queries, manage recruiter follow-ups, and streamline hiring pipelines from initial inquiry to successful placement.",
+    icon: "/icons/recruitment.svg",
+  },
+  {
+    title: "Travel & Hospitality",
+    body: "Manage travel inquiries, automate booking follow-ups, and deliver personalized guest experiences from one smart platform.",
+    icon: "/icons/travel-hospitality.svg",
+  },
 ];
 
 export const integrations: Integration[] = [

@@ -10,6 +10,8 @@ const industryLinks: Record<string, string> = {
   BFSI: "/industries/bfsi-telecalling-crm",
   Ecommerce: "/industries/ecommerce-call-center-crm",
   "Loan & Lending": "/industries/loan-and-lending-crm",
+  Recruitment: "/industries/recruitment-and-staffing",
+  "Travel & Hospitality": "/industries/travel-and-hospitality",
 };
 
 export function Industries() {

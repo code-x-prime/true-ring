@@ -65,6 +65,8 @@ const industryIconMap: Record<string, React.ElementType> = {
   "bfsi-telecalling-crm": IconBuildingBank,
   "ecommerce-call-center-crm": IconShoppingCart,
   "loan-and-lending-crm": IconBuildingBank,
+  "recruitment-and-staffing": IconUsers,
+  "travel-and-hospitality": IconPhone,
 };
 
 const integrationIconMap: Record<string, React.ElementType> = {
@@ -73,6 +75,8 @@ const integrationIconMap: Record<string, React.ElementType> = {
   "hubspot-integration": IconLink,
   "zoho-crm-integration": IconLink,
   "salesforce-integration": IconCloud,
+  "leadsquared-integration": IconLink,
+  "google-sheets-integration": IconLink,
 };
 
 function ServiceIcon({ slug, className }: { slug: string; className?: string }) {
