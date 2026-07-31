@@ -38,6 +38,7 @@ import {
 const topLevelLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
+  { href: "/career", label: "Careers" },
 ];
 
 const serviceIconMap: Record<string, React.ElementType> = {

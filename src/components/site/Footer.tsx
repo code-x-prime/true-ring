@@ -55,6 +55,7 @@ export function Footer() {
                             <li><Link href="/" className="text-xs sm:text-sm text-graphite hover:text-truering-orange transition-colors">Home</Link></li>
                             <li><Link href="/about" className="text-xs sm:text-sm text-graphite hover:text-truering-orange transition-colors">About Us</Link></li>
                             <li><Link href="/contact" className="text-xs sm:text-sm text-graphite hover:text-truering-orange transition-colors">Contact</Link></li>
+                            <li><Link href="/career" className="text-xs sm:text-sm text-graphite hover:text-truering-orange transition-colors">Careers</Link></li>
                             <li><Link href="/#features" className="text-xs sm:text-sm text-graphite hover:text-truering-orange transition-colors">Features</Link></li>
                             <li><Link href="/#faq" className="text-xs sm:text-sm text-graphite hover:text-truering-orange transition-colors">FAQ</Link></li>
                         </ul>
