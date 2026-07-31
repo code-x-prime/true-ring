@@ -96,8 +96,9 @@ export default function CareerPage() {
       } else {
         throw new Error(data.error || "Failed to load jobs");
       }
-    } catch (err: any) {
-      setError(err.message || "Failed to load jobs. Please try again.");
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : "Failed to load jobs. Please try again.";
+      setError(message);
       setJobs([]);
     } finally {
       setLoading(false);

@@ -102,7 +102,6 @@ export function HowItWorks() {
           <div className="space-y-12 md:space-y-24">
             {steps.map((s, i) => {
               const isEven = i % 2 === 0;
-              const StepIcon = s.icon;
 
               return (
                 <div

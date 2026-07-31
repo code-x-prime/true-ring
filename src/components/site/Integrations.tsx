@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 import { integrations } from "@/lib/site-content";
 import { SectionHeading } from "./SectionHeading";
 import { Card } from "@/components/ui/card";
@@ -165,8 +166,22 @@ export function Integrations() {
 
                     {/* Action Link */}
                     <div className="flex border-t border-dashed border-hairline/80 pt-4 mt-2">
-                      <a
-                        href="#cta"
+                      <Link
+                        href={
+                          it.name.includes("Salesforce")
+                            ? "/integrations/salesforce-integration"
+                            : it.name.includes("HubSpot")
+                            ? "/integrations/hubspot-integration"
+                            : it.name.includes("Zoho")
+                            ? "/integrations/zoho-crm-integration"
+                            : it.name.includes("LeadSquared")
+                            ? "/integrations/leadsquared-integration"
+                            : it.name.includes("WhatsApp")
+                            ? "/integrations/whatsapp-integration"
+                            : it.name.includes("Google")
+                            ? "/integrations/google-sheets-integration"
+                            : "/integrations/api-integration"
+                        }
                         className={cn(
                           buttonVariants({ variant: "ghost", size: "sm" }),
                           "p-0 h-auto text-xs font-semibold gap-1 hover:bg-transparent shadow-none transition-colors",
@@ -175,7 +190,7 @@ export function Integrations() {
                       >
                         Learn More
                         <ChevronRight className="ml-0 !h-3.5 !w-3.5 opacity-60 group-hover/card:translate-x-0.5 transition-transform" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </Card>

@@ -27,7 +27,6 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [consent, setConsent] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState("");
 
   const [formData, setFormData] = useState({
     name: "",
@@ -45,7 +44,6 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    setErrorMessage("");
 
     const baseUrl = (process.env.NEXT_PUBLIC_BRIGHTO_API_URL || "https://www.brightoindia.com").replace(/\/+$/, "");
     const payload = {
@@ -84,7 +82,6 @@ export default function ContactPage() {
       if (response.ok || data.success) {
         setSubmitted(true);
       } else {
-        setErrorMessage(data.error || "Submission received. Our team will reach out shortly!");
         setSubmitted(true);
       }
     } catch (err) {

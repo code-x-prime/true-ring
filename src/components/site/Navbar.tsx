@@ -442,8 +442,8 @@ export function Navbar() {
 
         <div className="hidden lg:block">
           <Link
-            href="/#cta"
-            className="inline-flex items-center gap-2 rounded-full bg-truering-orange px-6 py-2.5 text-sm font-bold text-white shadow-[0_10px_28px_-10px_rgba(255,85,0,0.55)] hover:bg-truering-orange-600 hover:shadow-[0_16px_36px_-12px_rgba(255,85,0,0.6)] transition-all"
+            href="/contact"
+            className="inline-flex items-center gap-2 rounded-full bg-truering-orange px-6 py-2.5 text-sm font-bold text-white shadow-[0_10px_28px_-10px_rgba(255,85,0,0.55)] hover:bg-truering-orange-600 hover:shadow-[0_16px_36px_-12px_rgba(255,85,0,0.65)] transition-all"
           >
             Get a Free Demo
           </Link>
@@ -612,7 +612,7 @@ export function Navbar() {
             </Link>
 
             <Link
-              href="/#cta"
+              href="/contact"
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-truering-orange px-5 py-3.5 text-sm font-bold text-white shadow-[0_10px_28px_-10px_rgba(255,85,0,0.55)] hover:bg-truering-orange-600 transition-all"
             >

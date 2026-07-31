@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { whyRows } from "@/lib/site-content";
 import { SectionHeading } from "./SectionHeading";
 import { cn } from "@/lib/utils";
@@ -175,12 +176,12 @@ export function WhyChoose() {
               </p>
             </div>
             <div className="pt-3">
-              <a
-                href="#cta"
-                className="inline-flex items-center justify-center rounded-xl bg-white px-4 py-2 text-xs font-bold text-truering-orange hover:bg-white/90 transition-colors shadow-sm"
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center rounded-xl bg-white px-4 py-2 text-xs font-bold text-truering-orange hover:bg-white/90 transition-colors shadow-sm cursor-pointer"
               >
                 Get a Free Demo →
-              </a>
+              </Link>
             </div>
           </div>
 

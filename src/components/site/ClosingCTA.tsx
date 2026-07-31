@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import gsap from "gsap";
 
@@ -58,12 +59,12 @@ export function ClosingCTA() {
             Whether you&apos;re looking to increase your sales or boost your customer support, Truering can help your teams do their best work.
           </p>
           <div className="mt-8">
-            <a
-              href="#"
+            <Link
+              href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-sm sm:text-base font-bold text-truering-orange shadow-md hover:scale-[1.03] transition-transform select-none cursor-pointer"
             >
               Get a Free Demo <ArrowRight className="h-4.5 w-4.5" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

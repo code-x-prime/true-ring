@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 import { SignalRing } from "./SignalRing";
@@ -111,16 +112,15 @@ export function Hero() {
         </p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href="#cta"
-            onClick={(e) => handleScroll(e, "cta")}
+          <Link
+            href="/contact"
             className={cn(
               buttonVariants({ size: "lg" }),
               "rounded-full bg-truering-orange text-white shadow-[0_18px_40px_-15px_rgba(255,85,0,0.55)] hover:bg-truering-orange-600 hover:shadow-[0_22px_50px_-15px_rgba(255,85,0,0.65)] transition-all cursor-pointer h-12 px-8 text-base font-semibold flex items-center gap-2"
             )}
           >
             Get a Free Demo <ArrowRight className="h-5 w-5" />
-          </a>
+          </Link>
 
           <a
             href="#features"
