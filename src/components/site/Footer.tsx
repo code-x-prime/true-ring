@@ -124,9 +124,9 @@ export function Footer() {
                 {/* Copyright bottom bar */}
                 <div className="mt-10 pt-8 border-t border-hairline flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] text-graphite">
                     <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                        <span>© {new Date().getFullYear()} Truering™. All rights reserved.</span>
+                        <span>Credify India is a product of Brighto Credit Information Private Limited.</span>
                         <span>•</span>
-                        <span>By Brighto Credit Information Pvt. Ltd.</span>
+                        <span>© 2026 Brighto Credit Information Private Limited. All Rights Reserved.</span>
                         <span>•</span>
                         <span>
                             Design & Developed by{" "}
@@ -144,6 +144,7 @@ export function Footer() {
                     <div className="flex items-center gap-4">
                         <Link href="/privacy-policy" className="hover:text-truering-orange transition-colors">Privacy Policy</Link>
                         <Link href="/terms-conditions" className="hover:text-truering-orange transition-colors">Terms & Conditions</Link>
+                        <span>In the name of Brighto Credit Information Private Limited</span>
                     </div>
                 </div>
 

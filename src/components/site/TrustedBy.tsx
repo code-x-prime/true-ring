@@ -1,3 +1,28 @@
+import Image from "next/image";
+
+const partners = [
+  { name: "Aditya Birla Housing Finance", logo: "/logos/Aditya Birla Housing Finance.png" },
+  { name: "Ambit Finvest", logo: "/logos/Ambit Finvest.png" },
+  { name: "AU Small Finance Bank", logo: "/logos/AU Small Finance Bank.png" },
+  { name: "Authum Finance", logo: "/logos/Authum Finance.png" },
+  { name: "Electronica Finance", logo: "/logos/Electronica Finance.png" },
+  { name: "Equitas Small Finance Bank", logo: "/logos/Equitas Small Finance Bank.png" },
+  { name: "ESAF Small Finance Bank", logo: "/logos/ESAF Small Finance Bank.png" },
+  { name: "HDFC Bank", logo: "/logos/HDFC Bank.png" },
+  { name: "Hinduja Housing Finance", logo: "/logos/Hinduja Housing Finance.png" },
+  { name: "ICICI Bank", logo: "/logos/ICICI Bank.png" },
+  { name: "IDBI Bank", logo: "/logos/IDBI Bank.png" },
+  { name: "IndusInd Bank", logo: "/logos/IndusInd Bank.png" },
+  { name: "Kotak Mahindra Bank", logo: "/logos/Kotak Mahindra Bank.png" },
+  { name: "L&T Finance", logo: "/logos/L&T Finance.jpeg" },
+  { name: "Maxemo Capital", logo: "/logos/Maxemo Capital.png" },
+  { name: "Poonawalla Fincorp", logo: "/logos/Poonawalla Fincorp.png" },
+  { name: "SMFG India Credit", logo: "/logos/SMFG India Credit.png" },
+  { name: "TVS Credit", logo: "/logos/TVS Credit.png" },
+  { name: "Ujjivan Small Finance Bank", logo: "/logos/Ujjivan Small Finance Bank.png" },
+  { name: "YES BANK", logo: "/logos/YES BANK.png" },
+];
+
 export function TrustedBy() {
   return (
     <section className="bg-background relative z-10 py-8 px-6">
@@ -9,68 +34,32 @@ export function TrustedBy() {
             <h3 className="text-xl sm:text-2xl font-bold text-ink mb-2">
               Our Partnerships
             </h3>
-            <p className="text-xs sm:text-sm text-graphite leading-relaxed">
+            <p className="text-xs sm:text-sm text-graphite leading-relaxed mb-3">
               Dynamic Teams, Trusted Partnerships, Lasting Impact. Powering high-growth sales and support teams globally.
+            </p>
+            <p className="text-[11px] text-graphite leading-relaxed">
+              Credify India is a product of Brighto Credit Information Private Limited.
+              <br />
+              © 2026 Brighto Credit Information Private Limited. All Rights Reserved.
             </p>
           </div>
 
-          {/* Right Panel: Clean Monochrome SVG Logo Card Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-
-            {/* Logo 1 */}
-            <div className="bg-white dark:bg-zinc-950 border border-hairline/60 rounded-2xl p-4 flex items-center justify-center h-20 sm:h-22 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.05)] hover:shadow-md hover:border-truering-orange/30 transition-all duration-300">
-              <svg viewBox="0 0 120 30" className="h-7 sm:h-8 w-auto text-ink opacity-70 hover:opacity-100 transition-opacity" fill="currentColor">
-                <circle cx="15" cy="15" r="8" fill="none" stroke="currentColor" strokeWidth="2.5" />
-                <circle cx="15" cy="15" r="3" />
-                <text x="32" y="20" className="font-sans font-bold text-[14px] tracking-tight" fill="currentColor">Logoipsum</text>
-              </svg>
-            </div>
-
-            {/* Logo 2 */}
-            <div className="bg-white dark:bg-zinc-950 border border-hairline/60 rounded-2xl p-4 flex items-center justify-center h-20 sm:h-22 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.05)] hover:shadow-md hover:border-truering-orange/30 transition-all duration-300">
-              <svg viewBox="0 0 120 30" className="h-7 sm:h-8 w-auto text-ink opacity-70 hover:opacity-100 transition-opacity" fill="currentColor">
-                <text x="15" y="22" className="font-mono font-black text-lg tracking-widest" fill="currentColor">IPSUM</text>
-              </svg>
-            </div>
-
-            {/* Logo 3 */}
-            <div className="bg-white dark:bg-zinc-950 border border-hairline/60 rounded-2xl p-4 flex items-center justify-center h-20 sm:h-22 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.05)] hover:shadow-md hover:border-truering-orange/30 transition-all duration-300">
-              <svg viewBox="0 0 120 30" className="h-7 sm:h-8 w-auto text-ink opacity-70 hover:opacity-100 transition-opacity" fill="currentColor">
-                <g transform="translate(10, 5)">
-                  <rect x="0" y="3" width="5" height="14" transform="skewX(-15)" />
-                  <rect x="8" y="3" width="5" height="14" transform="skewX(-15)" />
-                  <rect x="16" y="3" width="10" height="5" transform="skewX(-15)" />
-                </g>
-                <text x="45" y="20" className="font-sans font-black text-[14px] uppercase tracking-wider" fill="currentColor">Lilly</text>
-              </svg>
-            </div>
-
-            {/* Logo 4 */}
-            <div className="bg-white dark:bg-zinc-950 border border-hairline/60 rounded-2xl p-4 flex items-center justify-center h-20 sm:h-22 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.05)] hover:shadow-md hover:border-truering-orange/30 transition-all duration-300">
-              <svg viewBox="0 0 120 30" className="h-7 sm:h-8 w-auto text-ink opacity-70 hover:opacity-100 transition-opacity" fill="currentColor">
-                <path d="M15 5 L24 8 V15 C24 20 19 23 15 25 C11 23 6 20 6 15 V8 Z" fill="none" stroke="currentColor" strokeWidth="2" />
-                <path d="M15 9 L20 11 V15 C20 18 17 20 15 21 C13 20 10 18 10 15 V11 Z" />
-                <text x="34" y="20" className="font-sans font-bold text-[14px] tracking-tight" fill="currentColor">Logoipsum</text>
-              </svg>
-            </div>
-
-            {/* Logo 5 */}
-            <div className="bg-white dark:bg-zinc-950 border border-hairline/60 rounded-2xl p-4 flex items-center justify-center h-20 sm:h-22 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.05)] hover:shadow-md hover:border-truering-orange/30 transition-all duration-300">
-              <svg viewBox="0 0 120 30" className="h-7 sm:h-8 w-auto text-ink opacity-70 hover:opacity-100 transition-opacity" fill="currentColor">
-                <rect x="10" y="6" width="90" height="18" rx="3" fill="none" stroke="currentColor" strokeWidth="2" />
-                <text x="16" y="18" className="font-sans font-extrabold text-[10px] tracking-[0.18em]" fill="currentColor">LOGO IPSUM</text>
-              </svg>
-            </div>
-
-            {/* Logo 6 */}
-            <div className="bg-white dark:bg-zinc-950 border border-hairline/60 rounded-2xl p-4 flex items-center justify-center h-20 sm:h-22 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.05)] hover:shadow-md hover:border-truering-orange/30 transition-all duration-300">
-              <svg viewBox="0 0 120 30" className="h-7 sm:h-8 w-auto text-ink opacity-70 hover:opacity-100 transition-opacity" fill="currentColor">
-                <circle cx="16" cy="15" r="7" fill="none" stroke="currentColor" strokeWidth="2" />
-                <path d="M16 5 V25 M6 15 H26" stroke="currentColor" strokeWidth="1.5" />
-                <text x="36" y="20" className="font-sans font-semibold text-[14px] tracking-tight" fill="currentColor">logoipsum</text>
-              </svg>
-            </div>
-
+          {/* Right Panel: Partner Logo Grid */}
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3">
+            {partners.map((partner) => (
+              <div
+                key={partner.name}
+                className="bg-white dark:bg-zinc-950 border border-hairline/60 rounded-2xl p-3 flex items-center justify-center h-16 sm:h-20 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.05)] hover:shadow-md hover:border-truering-orange/30 transition-all duration-300"
+              >
+                <Image
+                  src={partner.logo}
+                  alt={partner.name}
+                  width={120}
+                  height={40}
+                  className="max-h-10 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                />
+              </div>
+            ))}
           </div>
 
         </div>
@@ -78,6 +67,3 @@ export function TrustedBy() {
     </section>
   );
 }
-
-
-
