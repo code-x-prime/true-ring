@@ -1,5 +1,6 @@
 import { Hero } from "@/components/site/Hero";
 import { TrustedBy } from "@/components/site/TrustedBy";
+import { Team } from "@/components/site/Team";
 import { Features } from "@/components/site/Features";
 import { InboundOutbound } from "@/components/site/InboundOutbound";
 import { Industries } from "@/components/site/Industries";
@@ -17,6 +18,7 @@ export default function Page() {
       <div className="relative z-10">
         <Hero />
         <TrustedBy />
+        <Team />
         <Features />
         <InboundOutbound />
         <Industries />

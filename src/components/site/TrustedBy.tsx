@@ -1,26 +1,26 @@
 import Image from "next/image";
 
 const partners = [
-  { name: "Aditya Birla Housing Finance", logo: "/logos/Aditya Birla Housing Finance.png" },
-  { name: "Ambit Finvest", logo: "/logos/Ambit Finvest.png" },
-  { name: "AU Small Finance Bank", logo: "/logos/AU Small Finance Bank.png" },
-  { name: "Authum Finance", logo: "/logos/Authum Finance.png" },
-  { name: "Electronica Finance", logo: "/logos/Electronica Finance.png" },
-  { name: "Equitas Small Finance Bank", logo: "/logos/Equitas Small Finance Bank.png" },
-  { name: "ESAF Small Finance Bank", logo: "/logos/ESAF Small Finance Bank.png" },
-  { name: "HDFC Bank", logo: "/logos/HDFC Bank.png" },
-  { name: "Hinduja Housing Finance", logo: "/logos/Hinduja Housing Finance.png" },
-  { name: "ICICI Bank", logo: "/logos/ICICI Bank.png" },
-  { name: "IDBI Bank", logo: "/logos/IDBI Bank.png" },
-  { name: "IndusInd Bank", logo: "/logos/IndusInd Bank.png" },
-  { name: "Kotak Mahindra Bank", logo: "/logos/Kotak Mahindra Bank.png" },
-  { name: "L&T Finance", logo: "/logos/L&T Finance.jpeg" },
-  { name: "Maxemo Capital", logo: "/logos/Maxemo Capital.png" },
-  { name: "Poonawalla Fincorp", logo: "/logos/Poonawalla Fincorp.png" },
-  { name: "SMFG India Credit", logo: "/logos/SMFG India Credit.png" },
-  { name: "TVS Credit", logo: "/logos/TVS Credit.png" },
-  { name: "Ujjivan Small Finance Bank", logo: "/logos/Ujjivan Small Finance Bank.png" },
-  { name: "YES BANK", logo: "/logos/YES BANK.png" },
+  { name: "Aditya Birla Housing Finance", logo: "/logos/aditya-birla-housing-finance.png" },
+  { name: "Ambit Finvest", logo: "/logos/ambit-finvest.png" },
+  { name: "AU Small Finance Bank", logo: "/logos/au-small-finance-bank.png" },
+  { name: "Authum Finance", logo: "/logos/authum-finance.png" },
+  { name: "Electronica Finance", logo: "/logos/electronica-finance.png" },
+  { name: "Equitas Small Finance Bank", logo: "/logos/equitas-small-finance-bank.png" },
+  { name: "ESAF Small Finance Bank", logo: "/logos/esaf-small-finance-bank.png" },
+  { name: "HDFC Bank", logo: "/logos/hdfc-bank.png" },
+  { name: "Hinduja Housing Finance", logo: "/logos/hinduja-housing-finance.png" },
+  { name: "ICICI Bank", logo: "/logos/icici-bank.png" },
+  { name: "IDBI Bank", logo: "/logos/idbi-bank.png" },
+  { name: "IndusInd Bank", logo: "/logos/indusind-bank.png" },
+  { name: "Kotak Mahindra Bank", logo: "/logos/kotak-mahindra-bank.png" },
+  { name: "L&T Finance", logo: "/logos/lt-finance.jpeg" },
+  { name: "Maxemo Capital", logo: "/logos/maxemo-capital.png" },
+  { name: "Poonawalla Fincorp", logo: "/logos/poonawalla-fincorp.png" },
+  { name: "SMFG India Credit", logo: "/logos/smfg-india-credit.png" },
+  { name: "TVS Credit", logo: "/logos/tvs-credit.png" },
+  { name: "Ujjivan Small Finance Bank", logo: "/logos/ujjivan-small-finance-bank.png" },
+  { name: "YES BANK", logo: "/logos/yes-bank.png" },
 ];
 
 export function TrustedBy() {
@@ -38,7 +38,7 @@ export function TrustedBy() {
               Dynamic Teams, Trusted Partnerships, Lasting Impact. Powering high-growth sales and support teams globally.
             </p>
             <p className="text-[11px] text-graphite leading-relaxed">
-              Credify India is a product of Brighto Credit Information Private Limited.
+              Truering is a product of Brighto Credit Information Private Limited.
               <br />
               © 2026 Brighto Credit Information Private Limited. All Rights Reserved.
             </p>
