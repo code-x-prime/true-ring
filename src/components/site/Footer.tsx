@@ -128,18 +128,7 @@ export function Footer() {
                         <span>Credify India is a product of Brighto Credit Information Private Limited.</span>
                         <span>•</span>
                         <span>© 2026 Brighto Credit Information Private Limited. All Rights Reserved.</span>
-                        <span>•</span>
-                        <span>
-                            Design & Developed by{" "}
-                            <a
-                                href="https://groxmedia.in/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="hover:text-truering-orange transition-colors font-semibold text-ink"
-                            >
-                                Grox Media
-                            </a>
-                        </span>
+
                     </div>
 
                     <div className="flex items-center gap-4">
