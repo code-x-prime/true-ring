@@ -330,7 +330,7 @@ export default function AboutPage() {
                 Book a Free Demo
               </Link>
               <a
-                href="tel:+919311463901"
+                href="tel:+911204539428"
                 className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/30 bg-white/5 px-6 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition-all hover:border-white hover:bg-white/10"
               >
                 <IconPhone className="h-4 w-4" /> Speak with Our Product Experts
@@ -362,10 +362,10 @@ export default function AboutPage() {
               </div>
               <h4 className="mt-4 text-sm font-bold uppercase tracking-wider text-graphite">Phone</h4>
               <a
-                href="tel:+919311463901"
+                href="tel:+911204539428"
                 className="mt-2 block text-base font-bold text-ink hover:text-truering-orange transition-colors"
               >
-                +91 9311463901
+                +91 120 453 9428
               </a>
             </div>
             <div className="rounded-2xl border border-hairline bg-mist/40 p-6 text-center">

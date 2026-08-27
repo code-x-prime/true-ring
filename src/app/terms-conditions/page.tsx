@@ -193,7 +193,7 @@ export default function TermsConditionsPage() {
         </li>
         <li>
           <strong>Phone:</strong>{" "}
-          <a href="tel:+919311463901">+91 9311463901</a>
+          <a href="tel:+911204539428">+91 120 453 9428</a>
         </li>
         <li>
           <strong>Address:</strong> C-83, 1st Floor, Sector-2, Noida, Uttar Pradesh 201301, India

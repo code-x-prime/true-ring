@@ -153,14 +153,8 @@ export default function ContactPage() {
               </div>
               <h3 className="mt-4 text-sm font-bold uppercase tracking-wider text-graphite">Call Us</h3>
               <a
-                href="tel:+919311463901"
-                className="mt-2 block text-base font-bold text-ink hover:text-truering-orange transition-colors"
-              >
-                +91 9311463901
-              </a>
-              <a
                 href="tel:+911204539428"
-                className="mt-1 block text-sm font-semibold text-ink hover:text-truering-orange transition-colors"
+                className="mt-2 block text-base font-bold text-ink hover:text-truering-orange transition-colors"
               >
                 +91 120 453 9428
               </a>
@@ -381,16 +375,10 @@ export default function ContactPage() {
                   Schedule a free demo with our product experts and see how Truering can help your team.
                 </p>
                 <a
-                  href="tel:+919311463901"
+                  href="tel:+911204539428"
                   className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-truering-orange transition-transform hover:scale-[1.03]"
                 >
-                  <IconPhone className="h-4 w-4" /> Call +91 9311463901
-                </a>
-                <a
-                  href="tel:+911204539428"
-                  className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-white/90 hover:text-white transition-colors"
-                >
-                  <IconPhone className="h-4 w-4" /> Landline: +91 120 453 9428
+                  <IconPhone className="h-4 w-4" /> Call +91 120 453 9428
                 </a>
               </div>
 
