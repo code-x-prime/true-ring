@@ -27,6 +27,7 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [consent, setConsent] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const [formData, setFormData] = useState({
     name: "",
@@ -45,6 +46,7 @@ export default function ContactPage() {
     e.preventDefault();
     setLoading(true);
 
+    setError("");
     const baseUrl = (process.env.NEXT_PUBLIC_BRIGHTO_API_URL || "https://www.brightoindia.com").replace(/\/+$/, "");
     const payload = {
       name: formData.name.trim(),
@@ -53,6 +55,8 @@ export default function ContactPage() {
       subject: `[Truering] Inquiry for ${formData.service || "Telecalling CRM"}`,
       message: `Company / Organization: ${formData.company || "Not Specified"}\nService Required: ${formData.service}\nSource Site: Truering\n\nMessage:\n${formData.message.trim()}`,
       website: "", // honeypot
+      source: "Truering",
+      consent: consent ? "true" : "false",
     };
 
     try {
@@ -79,15 +83,14 @@ export default function ContactPage() {
 
       const data = await response.json().catch(() => ({}));
 
-      if (response.ok || data.success) {
+      if (response.ok && data.success !== false) {
         setSubmitted(true);
       } else {
-        setSubmitted(true);
+        setError(data.error || "Something went wrong. Please try again or contact us directly.");
       }
     } catch (err) {
       console.error("Contact submission attempt:", err);
-      // Ensure positive user experience even if cross-origin policy blocks response detail
-      setSubmitted(true);
+      setError("Network error. Please check your connection and try again.");
     } finally {
       setLoading(false);
     }
@@ -154,6 +157,12 @@ export default function ContactPage() {
                 className="mt-2 block text-base font-bold text-ink hover:text-truering-orange transition-colors"
               >
                 +91 9311463901
+              </a>
+              <a
+                href="tel:+911204539428"
+                className="mt-1 block text-sm font-semibold text-ink hover:text-truering-orange transition-colors"
+              >
+                +91 120 453 9428
               </a>
               <p className="mt-1 text-xs text-graphite">Mon-Sat, 9 AM - 6 PM IST</p>
             </div>
@@ -320,6 +329,10 @@ export default function ContactPage() {
                       </label>
                     </div>
 
+                    {error && (
+                      <p className="text-sm text-red-600" role="alert">{error}</p>
+                    )}
+
                     <button
                       type="submit"
                       disabled={loading}
@@ -372,6 +385,12 @@ export default function ContactPage() {
                   className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-truering-orange transition-transform hover:scale-[1.03]"
                 >
                   <IconPhone className="h-4 w-4" /> Call +91 9311463901
+                </a>
+                <a
+                  href="tel:+911204539428"
+                  className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-white/90 hover:text-white transition-colors"
+                >
+                  <IconPhone className="h-4 w-4" /> Landline: +91 120 453 9428
                 </a>
               </div>
 

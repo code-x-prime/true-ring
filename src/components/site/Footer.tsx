@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { IconBrandLinkedin, IconMail } from "@tabler/icons-react";
+import { IconBrandLinkedin, IconMail, IconPhone } from "@tabler/icons-react";
 import Image from "next/image";
 import { servicePages, industryPages, integrationPages } from "@/lib/content-pages";
 
@@ -42,6 +42,15 @@ export function Footer() {
                                 aria-label="Email"
                             >
                                 <IconMail className="h-5 w-5" />
+                            </a>
+                        </div>
+
+                        <div className="space-y-1.5 pt-1">
+                            <a href="tel:+919311463901" className="flex items-center gap-2 text-xs sm:text-sm text-graphite hover:text-truering-orange transition-colors">
+                                <IconPhone className="h-3.5 w-3.5 shrink-0" /> +91-9311463901
+                            </a>
+                            <a href="tel:+911204539428" className="flex items-center gap-2 text-xs sm:text-sm text-graphite hover:text-truering-orange transition-colors">
+                                <IconPhone className="h-3.5 w-3.5 shrink-0" /> +91 120 453 9428
                             </a>
                         </div>
                     </div>
@@ -125,7 +134,7 @@ export function Footer() {
                 {/* Copyright bottom bar */}
                 <div className="mt-10 pt-8 border-t border-hairline flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] text-graphite">
                     <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                        <span>Credify India is a product of Brighto Credit Information Private Limited.</span>
+                        <span>Truering is a product of Brighto Credit Information Private Limited.</span>
                         <span>•</span>
                         <span>© 2026 Brighto Credit Information Private Limited. All Rights Reserved.</span>
 
