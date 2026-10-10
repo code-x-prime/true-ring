@@ -61,25 +61,11 @@ export default function ContactPage() {
 
     try {
       // Primary endpoint used in Brighto & Hubcheck
-      let response = await fetch(`${baseUrl}/api/contact`, {
+      const response = await fetch(`${baseUrl}/api/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
-
-      // Fallback endpoint if needed
-      if (!response.ok && response.status === 404) {
-        response = await fetch(`${baseUrl}/api/contact-us-api`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            ...payload,
-            company: formData.company,
-            service: formData.service,
-            source: "truering",
-          }),
-        });
-      }
 
       const data = await response.json().catch(() => ({}));
 

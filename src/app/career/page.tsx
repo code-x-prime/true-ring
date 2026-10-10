@@ -228,41 +228,22 @@ export default function CareerPage() {
       formData.append("phone", form.phone);
       formData.append("message", form.message);
       formData.append("jobId", selectedJob.id);
+      formData.append("consent", "true");
       formData.append("resume", resume);
 
-      let res = await fetch(`${baseUrl}/api/jobs/apply`, {
+      const res = await fetch(`${baseUrl}/api/jobs/apply`, {
         method: "POST",
         body: formData,
       });
+      const data = await res.json().catch(() => ({}));
 
-      if (res.ok) {
-        const data = await res.json().catch(() => ({ success: true }));
-        if (data.success !== false) {
-          setApplied(true);
-          return;
-        }
+      if (res.ok && data.success) {
+        setApplied(true);
+      } else {
+        setApplyError(data.error || "Failed to submit application. Please try again.");
       }
-
-      // 2. Fallback to Contact API if direct route is absent
-      const payload = {
-        name: form.name.trim(),
-        email: form.email.trim().toLowerCase(),
-        phone: form.phone.trim(),
-        subject: `[Career Application] ${selectedJob.title} - Truering`,
-        message: `Role Applied For: ${selectedJob.title} (${selectedJob.department})\nResume Attached: ${resume.name}\nSource Site: Truering Careers\n\nMessage:\n${form.message.trim()}`,
-        website: "",
-      };
-
-      res = await fetch(`${baseUrl}/api/contact`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-
-      setApplied(true);
     } catch {
-      // Graceful fallback to present success UI to applicant
-      setApplied(true);
+      setApplyError("Network error. Please check your connection and try again.");
     } finally {
       setApplying(false);
     }
