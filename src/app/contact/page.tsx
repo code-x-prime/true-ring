@@ -20,6 +20,7 @@ const serviceOptions = [
   "HubSpot Integration",
   "Zoho CRM Integration",
   "Salesforce Integration",
+  "Job Enquiry",
   "Other",
 ];
 
